@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5ed7c3-011d-4bda-951d-7fdc1314a065" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -385,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496513506745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignores vcs.xml">
+      <created>1496513571427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496513571427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2693000" />
+    <option name="totallyTimeSpent" value="2723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
@@ -433,7 +439,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="move css to assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="move css to assets" />
+    <MESSAGE value="ignores vcs.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignores vcs.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
