@@ -1,11 +1,14 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import Routes from './Routes';
+import { render } from 'react-dom'
+import { createStore } from 'redux'
+import state from './state/reducers'
+import Root from './Root';
+import registerServiceWorker from './registerServiceWorker';
 
-const Root = ({ store }) => (
-  <Provider store={store}>
-    <Routes/>
-  </Provider>
+let store = createStore(state);
+
+render(
+  <Root store={store} />,
+  document.getElementById('root')
 );
-
-export default Root;
+registerServiceWorker();

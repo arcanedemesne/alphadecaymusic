@@ -1,14 +1,17 @@
 import React from 'react';
-import createHistory from 'history/createBrowserHistory';
-import { Router, Route } from 'react-router';
+import { IndexRoute, Router, Route, browserhistory } from 'react-router';
 import App from './App';
+import Dashboard from './modules/dashboard';
+import Members from './modules/members';
 
-const history = createHistory();
-  
+
 const Routes = () => {
   return (
-    <Router history={history}>
-      <Route path="" component={App}/>
+    <Router history={browserhistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Dashboard}/>
+        <Route path="/members" component={Members}/>
+      </Route>
     </Router>
   );
 };
